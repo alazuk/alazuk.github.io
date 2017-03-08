@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,800i|Roboto+Slab');
+
+/* CSS Simple Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	color: #333333;
+	font-size: 16px; /*1em = 16 px*/
+	/*margin: 10px; 1em = 20 px*/
+}
+
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: #B8E986;
+	text-transform: uppercase;
+	font-weight: 700; 
+	text-align: center;
+}
+
+header {
+	width: 100%;
+	max-width: 1024px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto 
+}
+
+header div {
+	position: absolute;
+	top: 10%;
+	left: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+nav {
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+/*	min-height:2em;
+*/	background: black;
+	text-align: center; 
+	padding-top: 20px;
+	padding-bottom: 20px;
+/*	margin: 20px;*/
+
+}
+
+div p {
+	font-family: 'Roboto Slab', Georgia, serif;
+	text-transform: none;
+	text-align: center;
+	color: #000000;
+
+}
+
+h1 {
+	font-size: 4em;
+	text-align: center;
+	padding: 1em;
+	font-style: italic;
+/*	margin:auto;*/
+}
+
+
+h5  {
+	color: #B5B5B5;
+	font-size: 0.8em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+footer {
+
+/*	top:0;
+	left:0;*/
+	width:100%;
+	min-height:2em;
+	background: black;
+	text-align: center;
+}
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.main {
+	width: 100%;
+	max-width: 1024px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 20px 0 20px;
+}
+
+.bucket {
+	padding: 10px;
+	width: 33.3333%;
+	float: left;
+	display: block;
+}
+
+.navlinks {
+	padding: 1em;
+}
+
+.navlinks a {
+	color: white;
+	letter-spacing: 0.2em;
+	display: block;
+	width: 25%;
+	float: left;
+/*	margin: 0 100px;*/
+
+}
+
+.yellow {
+	color:yellow;
+	font-family: 'Roboto Slab', Georgia, serif;
+	font-size: 0.8em;
+}
+
+/*.bucketparagraph {
+	font-family: 'Roboto+Slab', Georgia, serif; 
+}*/
+
+.date {
+
+	text-decoration: uppercase;
+	font-size: 1.5em;
+	color:black;
+}
+
+.icon {
+	display: block;
+	width: 37px; 
+	float: left; 
+}
+
+.icon_parent{
+	width: 74px;
+	margin: 0 auto;
+}
+
+
+
+
+
+
