@@ -313,6 +313,7 @@ label {
 
 
 #toggle {
+
 	display: none;
 }
 
@@ -337,10 +338,6 @@ label {
 		font-size: 14px;
 	}
 
-	nav {
-
-		height: 50px;
-	}
 
 	.navlinks a {
 		letter-spacing: 0.1em;
@@ -374,15 +371,11 @@ label {
 
 
 	h4 {
-
 		font-size: 1.2em;
-		/*padding-bottom: 0.1em;*/
-
-}
+	}
 
 	nav {
 		display: none;
-
 	}
 
 	header {
@@ -395,9 +388,7 @@ label {
 	}
 
 	p {
-		font-size: 1.1em;
-		/*padding-bottom: 0.1em;*/
-		/*padding: 0.4em;*/	
+		font-size: 1.1em;	
 	}
 
 	.main_introduction {
@@ -407,6 +398,13 @@ label {
 	#toggle:checked + nav{
 		display: block;
 		top: 49px;
+	}
+
+	.navlinks a {
+    	width: 100%;
+    	text-align: left;
+    	padding: 2em 2em 2em 0; 
+
 	}
 
 	.mobile {
